@@ -1,101 +1,82 @@
-🍽️ Sistema Web para Gestão de Restaurantes
-📌 Visão Geral
 
-Este projeto consiste no desenvolvimento de um sistema web para gestão de restaurantes, permitindo o cadastro e gerenciamento de restaurantes, cardápios, horários de funcionamento, pedidos e relatórios de vendas.
+# 🍽️ Sistema Web para Gestão de Restaurantes
 
-A aplicação utiliza uma API REST desenvolvida do zero, com separação entre backend e frontend, visando organização, escalabilidade e facilidade de manutenção.
+## 📌 Visão Geral
 
-🛠️ Tecnologias Utilizadas
-Backend
+Este projeto consiste no desenvolvimento de um **sistema web para gestão de restaurantes**, permitindo o cadastro e gerenciamento de restaurantes, cardápios, horários de funcionamento, pedidos e relatórios de vendas.
 
-Node.js
+A aplicação utiliza uma **API REST desenvolvida do zero**, com separação entre backend e frontend, visando organização, escalabilidade e facilidade de manutenção.
 
-Express.js
+---
 
-API REST
+## 🛠️ Tecnologias Utilizadas
 
-MySQL (Banco de Dados Relacional)
+### Backend
+- **Node.js**
+- **Express.js**
+- **API REST**
+- **MySQL** (Banco de Dados Relacional)
 
-Frontend
+### Frontend
+- **React**
 
-React
+---
 
-🏗️ Arquitetura do Sistema
+## 🏗️ Arquitetura do Sistema
 
 O sistema é estruturado em três camadas principais:
 
-Frontend (Web)
-Interface do usuário desenvolvida em React, responsável por consumir a API e exibir os dados.
+1. **Frontend (Web)**  
+   Interface do usuário desenvolvida em React, responsável por consumir a API e exibir os dados.
 
-Backend (API REST)
-Desenvolvido em Node.js com Express, responsável pelas regras de negócio, autenticação, validação de dados e integração com o banco de dados.
+2. **Backend (API REST)**  
+   Desenvolvido em Node.js com Express, responsável pelas regras de negócio, autenticação, validação de dados e integração com o banco de dados.
 
-Banco de Dados (MySQL)
-Responsável pelo armazenamento persistente das informações do sistema.
+3. **Banco de Dados (MySQL)**  
+   Responsável pelo armazenamento persistente das informações do sistema.
 
-🔐 Funcionalidades
-🔑 Autenticação
+---
 
-Login de usuário
+## 🔐 Funcionalidades
 
-Criação de conta
+### 🔑 Autenticação
+- Login de usuário
+- Criação de conta
+- Recuperação de senha
+- Proteção de rotas da API
 
-Recuperação de senha
+### 🏪 Cadastro de Restaurantes e Cardápio (CRUD)
+- Cadastro de restaurantes
+- Edição e remoção de restaurantes
+- Cadastro de menu/cardápio
+- Atualização e exclusão de itens do cardápio
 
-Proteção de rotas da API
+### ⏰ Cadastro de Horário de Funcionamento
+- Definição de dias da semana
+- Horário de abertura
+- Horário de fechamento
 
-🏪 Cadastro de Restaurantes e Cardápio (CRUD)
+### 🧾 Cadastro de Pedidos
+- Criação de pedidos
+- Associação de itens do cardápio
+- Registro de valores
+- Controle de status do pedido
 
-Cadastro de restaurantes
+### 📊 Relatório de Vendas
+- Total de vendas por período
+- Quantidade de pedidos
+- Valores arrecadados
 
-Edição e remoção de restaurantes
+---
 
-Cadastro de menu/cardápio
+## 🎯 Objetivo do Projeto
 
-Atualização e exclusão de itens do cardápio
+Aplicar na prática conceitos de **Desenvolvimento Web**, **APIs REST**, **Node.js com Express**, **Bancos de Dados Relacionais** e **React**, simulando um sistema real de gestão de restaurantes.
 
-As operações seguem o padrão CRUD (Create, Read, Update, Delete).
+---
 
-⏰ Cadastro de Horário de Funcionamento
-
-Definição de dias da semana
-
-Horário de abertura
-
-Horário de fechamento
-
-🧾 Cadastro de Pedidos
-
-Criação de pedidos
-
-Associação de itens do cardápio
-
-Registro de valores
-
-Controle de status do pedido
-
-📊 Relatório de Vendas
-
-Total de vendas por período
-
-Quantidade de pedidos
-
-Valores arrecadados
-
-Esses relatórios auxiliam na análise de desempenho e controle financeiro.
-
-🎯 Objetivo do Projeto
-
-O objetivo deste projeto é aplicar, na prática, conceitos de:
-
-Desenvolvimento Web
-
-APIs REST
-
-Node.js com Express
-
-Bancos de Dados Relacionais
-
-React
-
-Simulando um sistema real de gestão de restaurantes.
+## 🚀 Possíveis Evoluções Futuras
+- Integração com sistemas de pagamento
+- Dashboard administrativo
+- Aplicativo mobile
+- Sistema de notificações
