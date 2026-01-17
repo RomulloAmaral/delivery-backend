@@ -9,13 +9,13 @@ router.get('/', function(req, res, next) {
 
 router.get('/dashboard', function(req, res, next) {
   const dashboardata = {
-    pedidos:100, 
-    entregas:100,
-    vendasRealizadas:100, 
+    pedidos:40, 
+    entregas:55,
+    vendasRealizadas:10, 
     vendasCanceladas:100,
   };
 
-  res.json({ dashboard:dashboardata});
+  res.json(dashboardata);
 });
 
 module.exports = router;
